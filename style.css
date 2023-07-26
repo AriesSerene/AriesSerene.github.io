@@ -1,0 +1,262 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	overflow-x: hidden;
+}
+
+.start{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: white;
+}
+
+nav {
+	display: flex;
+	width: 84%;
+	margin: auto;
+	padding: 20px 0;
+	align-items: center;
+	justify-content: space-between;
+	color: black;
+}
+
+img{
+	width: 12%;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 10px 20px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+nav ul li a:hover{
+	color: #54ADD8;
+}
+
+.info{
+	margin-left: 8%;
+	margin-top: 15%;
+}
+
+.info h1{
+	font-size: 50px;
+	color: black;
+	margin-bottom: 20px;
+}
+
+.info p{
+	color: black;
+	line-height: 22px;
+}
+
+.details h1{
+	font-size: 50px;
+	color: black;
+	position: relative;
+	left: 40%;
+	margin-bottom: 30px;
+}
+
+span{
+	/*color: #7CC4E7;*/
+	color: #54ADD8;
+	/*color: #E85AAA;*/
+	/*color: #D11680;*/
+}
+
+.details p{
+	position: relative;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	font-size: 120%;
+	line-height: 115%;
+}
+
+.detail h1{
+	font-size: 50px;
+	position: absolute;
+	left: 45%;
+	bottom: 66%;
+	margin-bottom: 3%;
+}
+
+.css-text{
+	position: absolute;
+	left: 15%; 
+	bottom: 55%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	font-size: 160%;
+	line-height: 115%;
+}
+
+.css-desc{
+	position: absolute;
+	left: 5%; 
+	bottom: 51%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	font-size: 100%;
+	line-height: 115%;
+}
+
+.html-text{
+	position: absolute;
+	left: 70%; 
+	bottom: 55%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	font-size: 160%;
+	line-height: 115%;
+}
+
+.html-desc{
+	position: absolute;
+	left: 70%; 
+	bottom: 51%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	font-size: 100%;
+	line-height: 115%;
+}
+
+.python-text{
+	position: absolute;
+	left: 41%; 
+	bottom: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	font-size: 160%;
+	line-height: 115%;
+}
+
+.python-desc{
+	position: absolute;
+	left: 37%; 
+	bottom: 6%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	font-size: 100%;
+	line-height: 110%;
+}
+
+.logos .css{
+	height: 30%;
+	width: 20%;
+	position: absolute;
+	left: 25%;
+	bottom: 40%;
+	transition: all 1s;
+}
+
+.logos .html{
+	height: 30%;
+	width: 20%;
+	position: absolute;
+	left: 55%;
+	bottom: 40%;
+	transition: all 1s;
+}
+
+.logos .python{
+	height: 30%;
+	width: 20%;
+	position: absolute;
+	left: 40%;
+	bottom: 20%;
+	transition: all 1s;
+}
+
+.logos:hover .css{
+	transform: scale(1.1);
+	
+}
+
+.logos:hover .html{
+	transform: scale(1.1);
+}
+
+.logos:hover .python{
+	transform: scale(1.1);
+}
+
+span{
+	color: #54ADD8;
+}
+
+h5{
+ 	color: black;
+}
+
+p{
+	color: black;
+}
+
+.css{
+	height: 300px;
+	width: 400px;
+}
+
+.images{
+	width: 325%;
+	height: 75%;
+	position: absolute;
+	bottom: 0;
+	left: 100px;
+}
+
+.me{
+	height: 100%;
+	position: absolute;
+	left: 20%;
+	bottom: 0;
+	transform: translateX(-50%);
+	transition: bottom 1s, left 1s;
+}
+
+.shape{
+	height: 29%;
+	width: 5%;
+	position: absolute;
+	left: 1019px;
+	bottom: 60px;
+	transform: translateX(-50%);
+	transition: bottom 1s, left 1s;
+
+}
+
+.shape0{
+	height: 29%;
+	width: 5%;
+	position: absolute;
+	left: 650px;
+	bottom: 370px;
+	transform: translateX(-50%);
+	transition: bottom 1s, left 1s;
+
+}
+
+.images:hover .shape{
+	left: 14%;
+}
+
+.images:hover .shape0{
+	left: 24%;
+}
